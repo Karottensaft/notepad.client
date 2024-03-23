@@ -5,7 +5,6 @@ import { BasePage } from '../base/BasePage.tsx'
 export const MainPage = memo(() => (
     <BasePage>
         <div className={styles.mainPage}>
-
         </div>
     </BasePage>
 ))

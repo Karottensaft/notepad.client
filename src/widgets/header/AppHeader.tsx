@@ -1,7 +1,14 @@
 ﻿import { memo } from 'react'
 import styles from './AppHeader.module.scss'
 
-export const AppHeader = memo(() => (
+type Props = {
+    title: string
+}
+
+export const AppHeader = memo<Props>(({
+    title
+}) => (
     <div className={styles.appHeader}>
+        {title}
     </div>
 ))
