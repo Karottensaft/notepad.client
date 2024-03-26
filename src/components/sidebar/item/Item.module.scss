@@ -1,0 +1,12 @@
+﻿.sidebarItem {
+  border: none;
+  background-color: #242424;
+  cursor: pointer;
+  transition: 400ms;
+  padding: 1em;
+  
+  &:hover {
+    transition: 400ms;
+    background-color: #565656;
+  }
+}

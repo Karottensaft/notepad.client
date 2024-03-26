@@ -1,0 +1,9 @@
+﻿.layout {
+  display: block;
+  position: page;
+  
+  .block {
+    display: flex;
+    flex-direction: row;
+  }
+}

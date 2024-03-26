@@ -1,0 +1,14 @@
+﻿.sidebar {
+  position: sticky;
+  display: flex;
+  flex-direction: column;
+  min-width: 100px;
+  width: 10%;
+  border: #565656 solid 1px;
+  
+  .title {
+    font-weight: bold;
+    align-self: center;
+    padding: 1em 0;
+  }
+}

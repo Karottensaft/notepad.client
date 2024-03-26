@@ -1,10 +1,11 @@
 ﻿import { memo } from 'react'
 import styles from './MainPage.module.scss'
-import { BasePage } from '../base/BasePage.tsx'
+import { MainLayout } from '../../layouts/main/MainLayout.tsx'
 
 export const MainPage = memo(() => (
-    <BasePage>
+    <MainLayout sidebarData={[{title: 'Sidebar item 1', onClick: () => console.log('1')}, {title: 'Sidebar item 2', onClick: () => console.log('2')}]}>
         <div className={styles.mainPage}>
+            {'dsadasdasdas'}
         </div>
-    </BasePage>
+    </MainLayout>
 ))
